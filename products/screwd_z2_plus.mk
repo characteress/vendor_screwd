@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from z2_plus device
-$(call inherit-product, device/zuk/z2_plus/device.mk)
+$(call inherit-product, vendor/pure/configs/pure_phone.mk)
 
 PRODUCT_NAME := screwd_z2_plus
 PRODUCT_DEVICE := z2_plus
