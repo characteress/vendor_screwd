@@ -34,6 +34,8 @@ endif
 ifeq (screwd_oneplus3,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_oneplus3.mk
 endif
-
+ifeq (screwd_oneplus3,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_z2_plus.mk
+endif
 
 
